@@ -1,7 +1,6 @@
 # PFC: Mejoras para primitivas neurales graficas
 
-Repositorio de codigo para el Proyecto de Final de Carrera I (CS402) en
-Universidad Catolica San Pablo.
+Repositorio de codigo para el Proyecto de Final de Carrera I (UCSP)
 
 ## Tecnicas implementadas
 
@@ -53,10 +52,3 @@ producto Hessiano-vector como precondicionador diagonal.
 │   └── train_*.py          # Scripts de entrenamiento
 └── README.md
 ```
-
-## Nota
-
-Este repositorio contiene solo el codigo relevante para entender los algoritmos.
-No incluye checkpoints, datos de entrenamiento, ni la libreria nerfacc (dependencia externa).
-El codigo NO esta configurado para ejecutarse directamente; requiere instalacion
-de dependencias (tinycudann, nerfacc, lpips, etc.) y configuracion de rutas.
